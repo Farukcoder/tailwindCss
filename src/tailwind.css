@@ -30,3 +30,9 @@
         font-size: 12px;
     }
 }
+
+@variants hover, focus {
+    .text-body {
+        font-size: 12px;
+    }
+}
