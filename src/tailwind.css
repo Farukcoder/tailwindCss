@@ -36,3 +36,9 @@
         font-size: 12px;
     }
 }
+
+@variants responsive {
+    .text-body {
+        font-size: 60px;
+    }
+}

@@ -828,12 +828,18 @@ h1 {
 }
 
 .text-body {
-  font-size: 12px;
+  font-size: 60px;
 }
 
 @variants hover, focus {
   .text-body {
     font-size: 12px;
+  }
+}
+
+@variants responsive {
+  .text-body {
+    font-size: 60px;
   }
 }
 
@@ -844,11 +850,7 @@ h1 {
 }
 
 .hover\:text-body:hover {
-  font-size: 12px;
-}
-
-.focus\:text-body:focus {
-  font-size: 12px;
+  font-size: 60px;
 }
 
 @media (min-width: 640px) {
